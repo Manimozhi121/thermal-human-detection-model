@@ -1,0 +1,23 @@
+.env
+
+# Ignore caches and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Ignore large datasets downloaded by scripts.
+FLIR-person-*/
+people-detection-thermal-*/
+dataset_small/
+
+# Ignore local training runs, predictions, and temporary logs.
+runs/
+artifacts/folder_inference_results/
+artifacts/image_inference_results/
+artifacts/trt_benchmark_log.txt
+
+# OS-specific files 
+.DS_Store
+Thumbs.db

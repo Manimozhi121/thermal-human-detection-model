@@ -1,0 +1,24 @@
+
+# Central Configuration for the Thermal Human Detection Project
+
+# DATA PREPARATION
+# Settings for data/prepare_data.py
+data_preparation:
+  roboflow_workspace: "thermaldetection-dyazw"
+  roboflow_project: "final-flir-dataset-hisfz-vfsor"
+  roboflow_version: 1 
+
+# MODEL TRAINING 
+# Settings for train.py
+training:
+  data_yaml_path: 'Final-FLIR-DataSet-1/data.yaml'
+  model_type: 'yolov8n.pt' # yolov8n.pt (nano)
+  epochs: 20
+  image_size: 640
+  project_name: 'models'
+  run_name: 'thermal_detection_final_run'
+
+# INFERENCE & EXPORT
+production_model:
+  pytorch_model_path: 'models/best.pt'
+  onnx_model_path: 'models/best.onnx'

@@ -1,0 +1,9 @@
+# Core ML/Ops Libraries
+ultralytics
+roboflow
+
+# For Video Processing in infer_folder.py
+opencv-python
+
+# For loading environment variables from .env file
+python-dotenv
