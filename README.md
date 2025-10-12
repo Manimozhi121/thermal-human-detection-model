@@ -11,6 +11,9 @@ A real-time, lightweight object detection pipeline using a fine-tuned YOLOv8n mo
 ---
 To provide an intuitive and accessible way to test the model's capabilities, we have developed a simple, interactive web-based demo (https://thermal-detection-app.onrender.com/).
 
+---
+Demo Video and PPT: https://drive.google.com/drive/folders/1hAS_P8umApZ7OBaevNWgoztXZ_C1Lj_8?usp=drive_link
+
 ![Screenshot of our thermal detection website](artifacts/website_screenshot.jpg)
 
 ## Key Features
