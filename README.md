@@ -1,7 +1,6 @@
 # Thermal Human Detection for Military Surveillance
 
 ![Team](https://img.shields.io/badge/Team-bit_happens-yellow)
-![GitHub Hackathon Banner](https://img.shields.io/badge/ZeroWings-blue)
 ![mAP@0.5](https://img.shields.io/badge/mAP%400.5-0.862-brightgreen)
 ![Model Size](https://img.shields.io/badge/ONNX_Size-11.6_MB-orange)
 ![FPS](https://img.shields.io/badge/Est._Speed-135_FPS-red)
